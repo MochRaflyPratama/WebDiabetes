@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DO n DONTS</title>
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+</head>
+<body>
+    <div class="full-bg">
+        <img src="{{ asset('assets/gambar/home.png') }}" alt="Background">
+    </div>
+    <header>
+        <h1>DO n DONTS</h1>
+    </header>
+
+    <main style="padding-bottom: 120px;">
+        <div class="do-dont-wrapper">
+            <div class="do-box">
+                <h2>👍 DO's</h2>
+                <ul>
+                    <li>Buah segar sebagai cemilan (pisang, apel, mangga, anggur)</li>
+                    <li>Minum Air putih atau infused water</li>
+                    <li>Konsumsi Yogurt plain + buah potong</li>
+                    <li>Bikin smoothie dari buah asli tanpa tambahan gula</li>
+                    <li>Makan Roti gandum + selai kacang alami</li>
+                    <li>Konsumsi Makanan manis alami secukupnya, tidak berlebihan</li>
+                </ul>
+            </div>
+            <div class="dont-box">
+                <h2>👎 DON'Ts</h2>
+                <ul>
+                    <li>Makan permen, cokelat batangan, dan jajanan tinggi gula setiap hari</li>
+                    <li>Minum boba, teh manis, soda, kopi susu kekinian</li>
+                    <li>Pilih yogurt rasa buah yang sudah tinggi gula</li>
+                    <li>Makan puding instan yang manis dan tinggi pemanis buatan</li>
+                    <li>Minum jus kemasan atau jus buah yang ditambah sirup</li>
+                    <li>Makan roti manis isi krim, selai coklat tinggi gula</li>
+                    <li>Makan sambil rebahan terus, tanpa olahraga atau gerak aktif</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>
+            <a href="https://www.instagram.com/sugarmates/" target="_blank" rel="noopener noreferrer">
+                <img src="{{ asset('assets/gambar/insta.png') }}" alt="Instagram" style="width: 28px; height: 28px; vertical-align: middle;">
+            </a>&copy;Sugar Mates
+        </p>
+        <div class="footer-links">
+            <a href="{{ url('/home') }}">← Kembali ke Beranda</a>
+            <a href="{{ url('/about') }}">Latar Belakang</a> |
+            <a href="{{ url('/pencegahan') }}">Kenapa Ini Penting</a> |
+            <a href="{{ url('/sumber-daya') }}">Isi Piring ku</a>
+        </div>
+    </footer>
+</body>
+</html>

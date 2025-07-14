@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Latar Belakang</title>
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+        rel="stylesheet"
+    />
+</head>
+<body>
+    <div class="full-bg">
+        <img src="{{ asset('assets/gambar/home.png') }}" alt="Background" />
+    </div>
+    <header>
+        <h1 class="title">Latar Belakang</h1>
+    </header>
+
+    <main class="container">
+        <section class="content">
+            <h2>Apa itu SUGARMATES?</h2>
+            <p>
+                Diabetes Melitus (DM) kini bukan lagi penyakit orang tua. Dalam beberapa tahun terakhir, kasus diabetes tipe 2 pada remaja terus meningkat secara signifikan. Gaya hidup tinggi gula, kurang aktivitas fisik, dan kebiasaan makan cepat saji menjadi penyebab utama. Banyak remaja terlihat sehat, padahal sudah berada dalam fase prediabetes tanpa disadari. Kondisi ini dikenal sebagai silent disease karena sering kali tidak menunjukkan gejala di awal, namun dapat memicu komplikasi serius di masa depan seperti penyakit jantung, stroke, dan gagal ginjal.
+            </p>
+            <p>
+                Di sinilah SUGAR-MATES hadir.
+                SUGAR-MATES adalah gerakan pencegahan diabetes dan obesitas yang dirancang khusus untuk remaja generasi Z. Dengan pendekatan yang sederhana, terbuka, dan interaktif, SUGAR-MATES mendorong perubahan pola hidup sehat melalui hal-hal kecil yang konsisten dan relevan dengan keseharian remaja masa kini.
+            </p>
+            <p>
+                Mengusung slogan “Gen-Z Juga Sehat!”, SUGAR-MATES mengajak kamu untuk mulai peduli, bergerak, dan jadi bagian dari tren hidup sehat—karena peduli kesehatan bukan cuma soal masa depan, tapi soal kendali atas hidupmu hari ini.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            <a href="https://www.instagram.com/sugarmates/" target="_blank" rel="noopener noreferrer">
+                <img src="{{ asset('assets/gambar/insta.png') }}" alt="Instagram" style="width: 28px; height: 28px; vertical-align: middle;">
+            </a>&copy;Sugar Mates
+        </p>
+        <div class="footer-links">
+            <a href="{{ url('/home') }}">← Kembali ke Beranda</a>
+            <a href="{{ url('/pencegahan') }}">Kenapa Ini Penting</a> |
+            <a href="{{ url('/sumber-daya') }}">Isi Piring Ku</a> |
+            <a href="{{ url('/disclaimer') }}">DO n DONTS</a>
+        </div>
+    </footer>
+</body>
+</html>
